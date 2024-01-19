@@ -4,6 +4,7 @@ from nltk.tokenize import word_tokenize
 import string
 
 nltk.download('stopwords', quiet = True)
+nltk.download('punkt', quiet=True)
 
 class keywords:
   def __init__(self):
