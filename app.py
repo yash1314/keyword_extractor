@@ -8,7 +8,7 @@ utilities = utilities()
 
 st.title('*:rainbow[Word Extractor]*')
 st.subheader("",divider='rainbow')
-st.markdown("""###### This webapp can extract top 10 relevant keywords and perform Word analysis on the user input.""")
+st.markdown("""#### This webapp can extract top 10 relevant keywords and perform Word analysis on the user input.""")
 
 
 st.markdown('')
