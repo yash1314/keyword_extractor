@@ -11,7 +11,7 @@ class keywords:
     pass
 
   def word_extractor(self, x):
-
+    x = x.lower()
     words = word_tokenize(x)
     words_list = [i for i in words if i not in string.punctuation]
     words = [word for word in words_list if word not in stopwords.words('english')]
