@@ -9,8 +9,11 @@ utilities = utilities()
 
 st.set_page_config(layout='wide')
 st.markdown('<style>div.block-container{padding-top:1.3rem;}</style>', unsafe_allow_html=True)
-st.title('*:rainbow[Word Extractor]*')
-st.markdown("""**This webapp can extract top 10 relevant keywords and perform Word analysis on the user input.**""")
+st.title('*:rainbow[Text Analysis]*')
+st.markdown("""**Welcome to easy-to-use web app that helps you improve your content. This tool can quickly extract the 
+            top 10 most important keywords from your text, so you know exactly what to focus on. This helps your content rank 
+            better and reach the right audience.
+            Try our web app today to make your content better and more impactful!**""")
 st.markdown("----------------------------------------------------------")
 
 
